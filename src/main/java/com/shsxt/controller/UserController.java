@@ -14,6 +14,7 @@ public class UserController {
 
     public void userAdd(){
         System.out.println("controller......");
+        System.out.println("11");
         helloService.hello("zhu");
     }
 
