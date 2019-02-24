@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--
+       xmlns 即 xml namespace  xml使用的命名空间
+       xmlns:xsi 即xml schema instance xml 遵守的具体规范
+       xsi:schemaLocation 本文档xml遵守的规范 官方指定
+     -->
+   <!-- <bean id="helloService" class="com.shsxt.service.HelloService"></bean>
+    <bean id="userDao" class="com.shsxt.dao.UserDao"></bean>-->
+
+    <context:component-scan base-package="com.shsxt"/>
+</beans>
